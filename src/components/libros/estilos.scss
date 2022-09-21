@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+$primary: #15141A; 
+$secondary: #1A1A22;
+$terciary: #1F1E24;
+$quaternary: #F5CB37;
+
+.main-crud {
+    align-items: center;
+    
+
+    table {
+        margin: 20px;
+        padding: 20px;
+        text-align: left;
+
+    }
+
+
+    thead {        
+        color: $quaternary;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    thead tr, th {
+        background-color: $primary;
+        text-align: center;
+    }
+    tbody {
+        color: $quaternary;
+        font-size: .8rem;
+        font-weight: 400;
+    }
+    
+
+
+    input:focus {      
+        color: $quaternary;
+        background-color: $primary;    
+        border-color: $quaternary;        
+  
+    }
+
+}
+.actions {
+    display: flex;
+    flex-direction: row;
+
+}
+.buscador {
+    background-color: $secondary;
+    border-color: $quaternary;
+    border-radius: 50px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    float: center;
+ 
+
+
+}
+input{
+box-sizing: border-box;
+border: 1px solid $quaternary !important;
+border-bottom: 1px solid $terciary;
+background: $secondary !important;   
+display: block;
+width: 80%;
+padding: .7rem;
+margin: 20px auto;   
+color: white !important;  
+outline: none !important;
+transition: background 0.3s;  
+}
+
+select {
+    background: $primary !important;
+    border: 1px solid $quaternary !important;
+    
+}
+
+option {
+    color: white;
+}
+input::placeholder{
+color: $quaternary;
+transition: color 0.3s;  
+}
+input:hover{
+background: $secondary;
+
+}
+input:hover::placeholder {
+color: $quaternary;
+}
+button[type='submit']{
+background-color: $quaternary;
+color: $primary;
+border: none;
+margin-top: 1rem;
+border-radius: 5px;
+transition: all .5s ease;
+
+}
+button[type='submit']:hover{
+background: $primary;
+border-radius: 0;
+border: 1px solid $quaternary;
+color: $quaternary;
+}
+
+form{
+border-radius: 5px;
+width: 60%;
+padding: .2rem;
+margin: auto;
+margin-top: 30px;
+padding-bottom: 30px;
+margin-bottom: 40px;
+background: $primary;
+
+}
+form h3 {
+    color: $quaternary;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+form button {
+    margin-left: 50px;
+   
+}
+.jumbotron h2 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+.swal2-modal {
+    background-color: $primary !important;
+    border: solid 1px $quaternary !important;
+}
+
+.sweet_container {
+    background-color: rgba(0, 0, 0, 0.5);
+} 
+.sweet_containerImportant {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+} 
+
+
+.sweet_title {
+    color:white !important; 
+    margin: auto; 
+    font-size: 18px;
+}
+.sweet_titleImportant {
+    color:$quaternary !important;     
+    margin: auto !important; 
+    font-family: 'Rubik', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 2rem !important;
+}
+
+.sweet_actions {   
+    margin: 10px;
+}
+.sweet_actionsImportant {   
+    margin: 10px !important;
+    }
+
+.sweet_confirmbutton {
+    font-size: 1em !important; 
+    font-weight:500;
+}
+.sweet_confirmbuttonImportant {
+    font-size: 1em !important; 
+    font-weight:500 !important;
+}
+
+.sweet_cancelbutton {
+    font-size: 1em !important; 
+    font-weight:500;
+}
+.sweet_cancelbuttonImportant {
+    font-size: 1em !important; 
+    font-weight:500 !important;
+}
