@@ -25,7 +25,7 @@ const NavbarMenu = (args) => {
   return (
     <div>
       <Navbar expand='md' {...args} className='nav-bg'>
-        <NavbarBrand href="/" className='navbar-text'><h3>Nabu</h3></NavbarBrand>
+        <NavbarBrand href="/" className='navbar-text'><h3>Nabuk</h3></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-auto" navbar>      

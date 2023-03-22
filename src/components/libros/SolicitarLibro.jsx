@@ -99,7 +99,7 @@ const SolicitarLibro = () => {
               />
             </div>
             
-            <button type='submit' className='btn btn-primary w-50'>Solicitar</button>
+            <button type='submit' className='buttons btn btn-primary w-50'>Solicitar</button>
           </form>
         </div>
       </div>
